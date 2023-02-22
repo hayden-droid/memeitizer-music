@@ -8,8 +8,8 @@ const LaunchRequestHandler = {
         return Alexa.getRequestType(handlerInput.requestEnvelope) === 'LaunchRequest';
     },
     handle(handlerInput) {
-        const speakOutput = 'Welcome to youtube music';
-        const repromptSpeakOutput = 'You can say, play vikram title track, to begin'
+        const speakOutput = 'Welcome to memeitizer music';
+        const repromptSpeakOutput = 'You can say, play flowers, to begin'
         return handlerInput.responseBuilder
             .speak(speakOutput)
             .reprompt(repromptSpeakOutput)
@@ -31,7 +31,7 @@ const PlaySongIntentHandler = {
             return controller.search(handlerInput, speechText);
         } else {
             return handlerInput.responseBuilder
-                .speak("You can say, play vikram title track, to begin.")
+                .speak("You can say, play flowers, to begin.")
                 .getResponse();
         }
     },
