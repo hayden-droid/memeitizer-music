@@ -5,25 +5,25 @@
         "en-IN": {
           "summary": "Alexa Youtube Music Skill",
           "examplePhrases": [
-            "Alexa open youtube"
+            "Alexa open memeitizer"
           ],
-          "name": "youtube-music-skill",
+          "name": "memeitizer-music",
           "description": "Alexa skill to play youtube music on alexa devices"
         },
         "en-US": {
           "summary": "Alexa Youtube Music Skill",
           "examplePhrases": [
-            "Alexa open youtube"
+            "Alexa open memeitizer"
           ],
-          "name": "youtube-music-skill",
+          "name": "memeitizer-music",
           "description": "Alexa skill to play youtube music on alexa devices"
         },
         "en-GB": {
           "summary": "Alex Youtube Music Skill",
           "examplePhrases": [
-            "Alexa open youtube"
+            "Alexa open memeitizer"
           ],
-          "name": "youtube-music-skill",
+          "name": "memeitizer-music",
           "description": "Alexa skill to play youtube music on alexa devices"
         }
       },
